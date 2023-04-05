@@ -1,10 +1,10 @@
-const mysql =require ('mysql2')
+const mysql =require ('mysql2/promise')
 
-const connection = mysql.createConnection({
-    database : 'appTodo',
+const pool = mysql.createPool({
+    database : 'learnnodejs',
     host: 'localhost',
     user: 'root',
     password: 'root'
 })
 
-module.exports = connection
+module.exports = pool

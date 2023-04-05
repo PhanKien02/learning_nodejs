@@ -1,8 +1,11 @@
 h1{
-    color: #2bc2dd;
     text-align: center;
+    color: rgb(197, 189, 43) !important;
 }
 table{
-    width: 500px;
     text-align: center;
+    margin-top: 20px;
+}
+thead{
+    background-color: #089c34 !important;
 }

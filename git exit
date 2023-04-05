@@ -1,0 +1,17 @@
+[33mcommit ae0b428709aaa64aa0f2f59fe4f735c1bef0c573[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morifin/master[m[33m)[m
+Author: Phan Kien <phankien110302@gmail.com>
+Date:   Tue Apr 4 22:10:16 2023 +0700
+
+    connect db - config route-add controller- gen data
+
+[33mcommit 14c54ffabb0a7d49045edd981037805094abfd6a[m
+Author: Phan Kien <phankien110302@gmail.com>
+Date:   Tue Apr 4 18:05:20 2023 +0700
+
+     template enginge
+
+[33mcommit b92ea68770d3a97a09db87356697e08ff952b270[m
+Author: Phan Kien <phankien110302@gmail.com>
+Date:   Mon Apr 3 17:18:35 2023 +0700
+
+    init pj
