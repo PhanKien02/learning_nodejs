@@ -7,6 +7,11 @@ let getIndex = async (req, res) => {
         return res.render('index.ejs',{product: data});
         
 };
+let deleteProduct = async(req,res) =>{
+    await pool.execute("delete from product where id=?",[req.params.id])
+    return res.redirect('/')
+}
 module.exports = {
     getIndex,
+    deleteProduct
 }

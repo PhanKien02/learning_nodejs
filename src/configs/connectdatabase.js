@@ -4,7 +4,8 @@ const pool = mysql.createPool({
     database : 'learnnodejs',
     host: 'localhost',
     user: 'root',
-    password: 'root'
+    password: 'root',
+    namedPlaceholders: true
 })
 
 module.exports = pool
